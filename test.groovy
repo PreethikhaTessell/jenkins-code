@@ -7,11 +7,10 @@ pipeline {
         AWS_SESSION_TOKEN = credentials('AWS_SESSION_TOKEN') // Jenkins credential ID for Session Token
     }
     stages {
-        stage('Hello World') {
+        stage('volume_validation') {
             steps {
                 script {
-                    // Print a simple message
-                    println 'Hello, World!'
+                   
 
                     // Run shell commands
                     sh """
