@@ -1,0 +1,21 @@
+{
+  "templateType": "print-template",
+  "configuration": {
+    "name": "PrintStringParam",
+    "description": "Job to print a string parameter",
+    "type": "freestyle",
+    "parameters": [
+      {
+        "type": "StringParameterDefinition",
+        "name": "INPUT_STRING",
+        "defaultValue": "Default",
+        "description": "String to print"
+      }
+    ],
+    "steps": [
+      {
+        "shellCommand": "echo ${INPUT_STRING}"
+      }
+    ]
+  }
+}
