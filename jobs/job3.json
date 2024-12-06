@@ -21,6 +21,8 @@
     "steps": [
       {
         "shellCommand": "echo ${INPUT_STRING}"
+      },
+      {
         "shellCommand": "echo ${INPUT_STRING_1}"
       }
     ]
