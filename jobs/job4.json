@@ -1,0 +1,13 @@
+{
+  "templateType": "print-template",
+  "configuration": {
+    "name": "PrintHello_new",
+    "description": "Job to print Hello",
+    "type": "freestyle",
+    "steps": [
+      {
+        "shellCommand": "echo Hellonew"
+      }
+    ]
+  }
+}
