@@ -11,10 +11,17 @@
         "defaultValue": "Default",
         "description": "String to print"
       }
+      {
+        "type": "StringParameterDefinition",
+        "name": "INPUT_STRING_1",
+        "defaultValue": "Default",
+        "description": "String to print"
+      }
     ],
     "steps": [
       {
         "shellCommand": "echo ${INPUT_STRING}"
+        "shellCommand": "echo ${INPUT_STRING_1}"
       }
     ]
   }
