@@ -10,7 +10,7 @@
         "name": "INPUT_STRING",
         "defaultValue": "Default",
         "description": "String to print"
-      }
+      },
       {
         "type": "StringParameterDefinition",
         "name": "INPUT_STRING_1",
