@@ -1,0 +1,13 @@
+{
+  "templateType": "print-template",
+  "configuration": {
+    "name": "PrintWorld",
+    "description": "Job to print World",
+    "type": "freestyle",
+    "steps": [
+      {
+        "shellCommand": "echo World"
+      }
+    ]
+  }
+}
